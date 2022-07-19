@@ -142,7 +142,7 @@
 	      , BOARD_CN = #{boardCn}
 	      , NOTICE_AT = #{noticeAt}
 	      , OTHBC_AT = #{othbcAt}
-	      <if test='atchFileId != null and atchFiledId != ""'>, ATCH_FILE_ID = #{atchFileId}</if>
+	      <if test='atchFileId != null and atchFileId != ""'>, ATCH_FILE_ID = #{atchFileId}</if>
           , LAST_UPDT_PNTTM = NOW()
           ,	LAST_UPDUSR_ID = #{boardId}
        WHERE BOARD_ID =#{boardId}

@@ -179,6 +179,10 @@ $(function(){
 		              	     <input type="file" name="file_1"/>
 		              	<br/>
 		              	 	<input type="file" name="file_2"/>
+		              	<br/>	
+		              	 	<input type="file" name="file_3"/>
+		              	<br/>
+		              	 	<input type="file" name="file_4"/>
 		              	<br/>
 		        </tbody>
 		    </table>
